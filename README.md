@@ -35,7 +35,7 @@ Contributions to this repository are welcome. If you have additional insights, r
 
 | Link to demo                             | Link to Github Cliend and Server Site                                                    | 
 | ---------------------------------------- | ----------------------------------------------------------------------------- |
-| [demo](https://duay.vercel.app) | [Cliend and Server Site]([https://github.com/DeveloperAlihasan404439/Team-client-project](https://github.com/DeveloperAlihasan404439/IRD-job-task) | 
+| [demo](https://duay.vercel.app) | [Cliend and Server Site](https://github.com/DeveloperAlihasan404439/IRD-job-task) | 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

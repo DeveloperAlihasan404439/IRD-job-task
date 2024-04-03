@@ -1,0 +1,119 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/DuayDetelis/CopyAndBookmark.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.wrapper {
+    display: inline-flex;
+}
+
+.wrapper .icon {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.wrapper .icon span {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    background-color: #FFF;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -2;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+}
+
+.wrapper .icon .tooltip {
+    position: absolute;
+    background-color: #FFF;
+    font-size: 18px;
+    top: 0;
+    padding: 10px 18px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s cubic-bezier(.68, -.55, .265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -60px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.wrapper .icon .tooltip:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: red;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+.dark .wrapper .icon .tooltip{
+    background: #1EA55C;
+}
+.dark .wrapper .icon span{
+    background: #192847;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/DarkMode/DarkMode.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.switch {
+  position: relative;
+  height: 1.5rem;
+  width: 3rem;
+  cursor: pointer;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  border-radius: 9999px;
+  background-color: rgba(100, 116, 139, 0.377);
+  transition: all .3s ease;
+}
+
+.switch:checked {
+  background-color: #1EA55C;
+}
+
+.switch::before {
+  position: absolute;
+  content: "";
+  left: calc(1.5rem - 1.6rem);
+  top: calc(1.5rem - 1.6rem);
+  display: block;
+  height: 1.6rem;
+  width: 1.6rem;
+  cursor: pointer;
+  border: 1px solid rgba(100, 116, 139, 0.527);
+  border-radius: 9999px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 3px 10px rgba(100, 116, 139, 0.327);
+  transition: all .3s ease;
+}
+
+.switch:hover::before {
+  box-shadow: 0 0 0px 8px rgba(0, 0, 0, .15)
+}
+
+.switch:checked:hover::before {
+  box-shadow: 0 0 0px 8px rgba(236, 72, 153, .15)
+}
+
+.switch:checked:before {
+  transform: translateX(100%);
+  border-color: #1EA55C;
+}

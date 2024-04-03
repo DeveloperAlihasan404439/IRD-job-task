@@ -9,6 +9,8 @@ This repository contains information about the importance of dua (supplication) 
 Dua's Importance" is a web page dedicated to exploring the significance of dua in Islam. It covers various aspects of dua, including its importance in a Muslim's life, its benefits, and how to incorporate dua into daily routines.
 
 ## Table of Contents
+| 1 | 2 | 3 | 4 | 5 |
+| ------- | ------- | ------- | ------- | ------- |
 | Introduction | Importance of Dua | Benefits of Dua | Practices and Recommendations | Contributing |
 
 ## Introduction
